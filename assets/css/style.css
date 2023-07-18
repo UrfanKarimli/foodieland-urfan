@@ -1,0 +1,2811 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body {
+  background-color: #fff;
+  min-width: 1450px;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+header {
+  height: 110px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+header .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .logo a {
+  color: #000;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: relative;
+}
+header .container .logo a p {
+  color: #FF7426;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  right: -7px;
+  bottom: 0px;
+}
+header .container nav ul {
+  display: flex;
+  align-items: center;
+}
+header .container nav ul li {
+  margin-left: 25px;
+}
+header .container nav ul li a {
+  line-height: 19px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+header .container .socials {
+  width: 134px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .container .socials li a {
+  width: 133.962px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #000;
+}
+
+#introdoction {
+  margin-top: 40px;
+}
+#introdoction .container {
+  display: flex;
+  flex-direction: row;
+}
+#introdoction .container .left-back-blue {
+  border: 1px solid #000;
+  width: 40%;
+  height: 640px;
+  flex-shrink: 0;
+  background-color: #E7FAFE;
+}
+#introdoction .container .left-back-blue .hot-recieps {
+  width: 156px;
+  height: 45px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+}
+#introdoction .container .left-back-blue .hot-recieps h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .hot-recieps img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#introdoction .container .left-back-blue .content h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -2.56px;
+}
+#introdoction .container .left-back-blue .content p {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+#introdoction .container .left-back-blue .content .gray-radius {
+  display: flex;
+}
+#introdoction .container .left-back-blue .content .gray-radius .time {
+  width: 139px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.05);
+}
+#introdoction .container .left-back-blue .content .gray-radius .time img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+#introdoction .container .left-back-blue .content .gray-radius .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .content .gray-radius .chicken {
+  width: 119px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.05);
+}
+#introdoction .container .left-back-blue .content .gray-radius .chicken img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+#introdoction .container .left-back-blue .content .gray-radius .chicken span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .author {
+  display: flex;
+}
+#introdoction .container .left-back-blue .author .john img {
+  width: 50px;
+  height: 50px;
+  flex-shrink: 0;
+  border-radius: 50px;
+}
+#introdoction .container .left-back-blue .author .john h4 {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+#introdoction .container .left-back-blue .author .john span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .author .view button {
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #000;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .author .view img {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+#introdoction .container .right-back-img {
+  background-image: url(../img/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid #000;
+  width: 60%;
+  height: 640px;
+  flex-shrink: 0;
+}
+
+#categori {
+  margin-top: 100px;
+}
+#categori .container {
+  display: flex;
+  flex-direction: column;
+}
+#categori .container .top-line {
+  display: flex;
+  justify-content: space-between;
+}
+#categori .container .top-line h2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#categori .container .top-line button {
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #E7FAFE;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+#categori .container .buttom-line {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-top: 100px;
+}
+#categori .container .buttom-line .cart-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+#categori .container .buttom-line .cart-1 img {
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+}
+#categori .container .buttom-line .cart-1 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+#categori .container .buttom-line .cart-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+#categori .container .buttom-line .cart-2 img {
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+#categori .container .buttom-line .cart-2 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+#categori .container .buttom-line .cart-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+#categori .container .buttom-line .cart-3 img {
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+#categori .container .buttom-line .cart-3 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+#categori .container .buttom-line .cart-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+#categori .container .buttom-line .cart-4 img {
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+#categori .container .buttom-line .cart-4 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+#categori .container .buttom-line .cart-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+#categori .container .buttom-line .cart-5 img {
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+#categori .container .buttom-line .cart-5 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+#categori .container .buttom-line .cart-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  position: relative;
+  width: 180px;
+  height: 152px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+#categori .container .buttom-line .cart-6 img {
+  position: absolute;
+  left: 40px;
+  bottom: 102px;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+}
+#categori .container .buttom-line .cart-6 span {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.36px;
+  padding-bottom: 30px;
+}
+
+#recipes .container .simple-tasty {
+  margin-top: 100px;
+  width: 100%;
+}
+#recipes .container .simple-tasty .header-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+#recipes .container .simple-tasty .header-text h1 {
+  text-align: center;
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#recipes .container .simple-tasty .header-text p {
+  text-align: center;
+  width: 706px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+#recipes .container .simple-tasty .grid-carts {
+  margin-top: 100px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 {
+  grid-area: 1/1/2/2;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div1 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div1 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 {
+  grid-area: 1/2/2/3;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div2 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div2 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 {
+  grid-area: 1/3/2/4;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div3 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div3 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 {
+  grid-area: 2/1/3/2;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div4 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div4 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 {
+  grid-area: 2/2/3/3;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div5 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div5 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div6 {
+  grid-area: 2/3/3/4;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  background: linear-gradient(180deg, #357355 0%, #1D483B 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div6 h4 {
+  width: 172px;
+  color: #FFF;
+  text-align: center;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+}
+#recipes .container .simple-tasty .grid-carts .div6 img {
+  width: 354px;
+  height: 336px;
+  position: absolute;
+  top: 100px;
+}
+#recipes .container .simple-tasty .grid-carts .div6 p {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+  position: absolute;
+  bottom: 32px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 {
+  grid-area: 3/1/4/2;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div7 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div7 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 {
+  grid-area: 3/2/4/3;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div8 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div8 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 {
+  grid-area: 3/3/4/4;
+  width: 400px;
+  height: 434px;
+  border: 1px solid none;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div9 figure img {
+  margin-top: 16px;
+  width: 368px;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 30px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 figure figcaption h3 {
+  margin-top: 25px;
+  width: 352px;
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.96px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 i {
+  position: absolute;
+  top: 36px;
+  right: 36px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 i img {
+  width: 48px;
+  height: 48px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons {
+  position: absolute;
+  left: 24px;
+  bottom: 32px;
+  display: flex;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#recipes .container .simple-tasty .grid-carts .div9 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+#cheff {
+  margin-top: 240px;
+}
+#cheff .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#cheff .container .content {
+  width: 526px;
+}
+#cheff .container .content h3 {
+  margin-bottom: 24px;
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#cheff .container .content p {
+  margin-bottom: 72px;
+  width: 508px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+#cheff .container .content button {
+  width: 180px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #000;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#cheff .container .right-photo {
+  position: relative;
+  width: 651px;
+  height: 500px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+}
+#cheff .container .right-photo .usta {
+  position: absolute;
+  bottom: 0px;
+  right: 50px;
+  width: 660px;
+  height: 597px;
+  flex-shrink: 0;
+}
+#cheff .container .right-photo div .tomat {
+  position: absolute;
+  bottom: 124px;
+  left: -25px;
+  width: 50px;
+  height: 50px;
+  z-index: 4;
+}
+#cheff .container .right-photo div .meat {
+  position: absolute;
+  top: 27px;
+  left: 43px;
+  width: 80px;
+  height: 80px;
+  transform: rotate(-15deg);
+  z-index: 4;
+}
+#cheff .container .right-photo div .broc {
+  position: absolute;
+  top: 70px;
+  right: 36px;
+  width: 80px;
+  height: 80px;
+}
+#cheff .container .right-photo div .sogan {
+  position: absolute;
+  top: 0px;
+  right: 180px;
+  width: 50px;
+  height: 50px;
+  transform: rotate(15deg);
+}
+
+#instagram {
+  height: 964px;
+  width: 100%;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  margin-top: 160px;
+  position: relative;
+}
+#instagram .container .flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#instagram .container .flex-column .content h2 {
+  margin-top: 80px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#instagram .container .flex-column .content p {
+  margin-top: 24px;
+  width: 840px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+#instagram .container .flex-column .post-row {
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#instagram .container .flex-column .post-row .cart-1 {
+  background-color: #fff;
+  height: 445px;
+  width: 290px;
+  border: 1px solid none;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part {
+  padding: 8.5px 11.5px 8.5px 7.7px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part .nick-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part .nick-icon .nick {
+  margin-left: 7.7px;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part .nick-icon .nick h4 {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part .nick-icon .nick p {
+  width: 53.36px;
+  height: 10.053px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.054px;
+}
+#instagram .container .flex-column .post-row .cart-1 .header-part .nick-icon .check {
+  position: absolute;
+  right: -6px;
+  top: -1px;
+}
+#instagram .container .flex-column .post-row .cart-1 .img-part {
+  width: 290px;
+  height: 290px;
+  flex-shrink: 0;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-1 .img-part span {
+  position: absolute;
+  top: 10.8px;
+  right: 10.8px;
+  padding: 5px 7px;
+  flex-shrink: 0;
+  border-radius: 10.053px;
+  background: rgba(18, 18, 18, 0.7);
+  color: #F9F9F9;
+  font-family: SF Pro Text;
+  font-size: 9.28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part {
+  display: flex;
+  flex-direction: column;
+  padding: 9.8px 12.09px 10.05px 10.83px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .icon-line {
+  display: flex;
+  justify-content: space-between;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .icon-line .left {
+  display: flex;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .icon-line .left .l-c-s span {
+  margin-right: 8px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .icon-line .left .three {
+  margin-left: 35px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .liked-by {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 9.4px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .liked-by p {
+  margin-left: 3px;
+  width: 184.827px;
+  height: 13.92px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .caption {
+  width: 266.8px;
+  height: 27.84px;
+  margin-top: 4px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .caption p {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .caption p b {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-1 .footer-part .date {
+  margin-top: 5px;
+  width: 56.453px;
+  height: 10.053px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.039px;
+}
+#instagram .container .flex-column .post-row .cart-2 {
+  background-color: #fff;
+  height: 445px;
+  width: 290px;
+  border: 1px solid none;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part {
+  padding: 8.5px 11.5px 8.5px 7.7px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part .nick-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part .nick-icon .nick {
+  margin-left: 7.7px;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part .nick-icon .nick h4 {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part .nick-icon .nick p {
+  width: 53.36px;
+  height: 10.053px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.054px;
+}
+#instagram .container .flex-column .post-row .cart-2 .header-part .nick-icon .check {
+  position: absolute;
+  right: -6px;
+  top: -1px;
+}
+#instagram .container .flex-column .post-row .cart-2 .img-part {
+  width: 290px;
+  height: 290px;
+  flex-shrink: 0;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-2 .img-part span {
+  position: absolute;
+  top: 10.8px;
+  right: 10.8px;
+  padding: 5px 7px;
+  flex-shrink: 0;
+  border-radius: 10.053px;
+  background: rgba(18, 18, 18, 0.7);
+  color: #F9F9F9;
+  font-family: SF Pro Text;
+  font-size: 9.28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part {
+  display: flex;
+  flex-direction: column;
+  padding: 9.8px 12.09px 10.05px 10.83px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .icon-line {
+  display: flex;
+  justify-content: space-between;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .icon-line .left {
+  display: flex;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .icon-line .left .l-c-s span {
+  margin-right: 8px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .icon-line .left .three {
+  margin-left: 35px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .liked-by {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 9.4px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .liked-by p {
+  margin-left: 3px;
+  width: 184.827px;
+  height: 13.92px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .caption {
+  width: 266.8px;
+  height: 27.84px;
+  margin-top: 4px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .caption p {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .caption p b {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-2 .footer-part .date {
+  margin-top: 5px;
+  width: 56.453px;
+  height: 10.053px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.039px;
+}
+#instagram .container .flex-column .post-row .cart-3 {
+  background-color: #fff;
+  height: 445px;
+  width: 290px;
+  border: 1px solid none;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part {
+  padding: 8.5px 11.5px 8.5px 7.7px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part .nick-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part .nick-icon .nick {
+  margin-left: 7.7px;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part .nick-icon .nick h4 {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part .nick-icon .nick p {
+  width: 53.36px;
+  height: 10.053px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.054px;
+}
+#instagram .container .flex-column .post-row .cart-3 .header-part .nick-icon .check {
+  position: absolute;
+  right: -6px;
+  top: -1px;
+}
+#instagram .container .flex-column .post-row .cart-3 .img-part {
+  width: 290px;
+  height: 290px;
+  flex-shrink: 0;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-3 .img-part span {
+  position: absolute;
+  top: 10.8px;
+  right: 10.8px;
+  padding: 5px 7px;
+  flex-shrink: 0;
+  border-radius: 10.053px;
+  background: rgba(18, 18, 18, 0.7);
+  color: #F9F9F9;
+  font-family: SF Pro Text;
+  font-size: 9.28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part {
+  display: flex;
+  flex-direction: column;
+  padding: 9.8px 12.09px 10.05px 10.83px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .icon-line {
+  display: flex;
+  justify-content: space-between;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .icon-line .left {
+  display: flex;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .icon-line .left .l-c-s span {
+  margin-right: 8px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .icon-line .left .three {
+  margin-left: 35px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .liked-by {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 9.4px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .liked-by p {
+  margin-left: 3px;
+  width: 184.827px;
+  height: 13.92px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .caption {
+  width: 266.8px;
+  height: 27.84px;
+  margin-top: 4px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .caption p {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .caption p b {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-3 .footer-part .date {
+  margin-top: 5px;
+  width: 56.453px;
+  height: 10.053px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.039px;
+}
+#instagram .container .flex-column .post-row .cart-4 {
+  background-color: #fff;
+  height: 445px;
+  width: 290px;
+  border: 1px solid none;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part {
+  padding: 8.5px 11.5px 8.5px 7.7px;
+  height: 42px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part .nick-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part .nick-icon .nick {
+  margin-left: 7.7px;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part .nick-icon .nick h4 {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part .nick-icon .nick p {
+  width: 53.36px;
+  height: 10.053px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.054px;
+}
+#instagram .container .flex-column .post-row .cart-4 .header-part .nick-icon .check {
+  position: absolute;
+  right: -6px;
+  top: -1px;
+}
+#instagram .container .flex-column .post-row .cart-4 .img-part {
+  width: 290px;
+  height: 290px;
+  flex-shrink: 0;
+  position: relative;
+}
+#instagram .container .flex-column .post-row .cart-4 .img-part span {
+  position: absolute;
+  top: 10.8px;
+  right: 10.8px;
+  padding: 5px 7px;
+  flex-shrink: 0;
+  border-radius: 10.053px;
+  background: rgba(18, 18, 18, 0.7);
+  color: #F9F9F9;
+  font-family: SF Pro Text;
+  font-size: 9.28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part {
+  display: flex;
+  flex-direction: column;
+  padding: 9.8px 12.09px 10.05px 10.83px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .icon-line {
+  display: flex;
+  justify-content: space-between;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .icon-line .left {
+  display: flex;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .icon-line .left .l-c-s span {
+  margin-right: 8px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .icon-line .left .three {
+  margin-left: 35px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .liked-by {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 9.4px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .liked-by p {
+  margin-left: 3px;
+  width: 184.827px;
+  height: 13.92px;
+  flex-shrink: 0;
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .caption {
+  width: 266.8px;
+  height: 27.84px;
+  margin-top: 4px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .caption p {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13.92px;
+  letter-spacing: -0.054px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .caption p b {
+  color: #262626;
+  font-family: SF Pro Text;
+  font-size: 10.053px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 13.92px;
+  /* 138.462% */
+  letter-spacing: -0.077px;
+}
+#instagram .container .flex-column .post-row .cart-4 .footer-part .date {
+  margin-top: 5px;
+  width: 56.453px;
+  height: 10.053px;
+  color: rgba(0, 0, 0, 0.4);
+  font-family: SF Pro Text;
+  font-size: 8.507px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.039px;
+}
+#instagram .container .flex-column .visit {
+  width: 229px;
+  height: 60px;
+  border-radius: 16px;
+  background: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 80px;
+}
+#instagram .container .flex-column .visit div {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.28px;
+  margin-right: 17px;
+}
+
+#try-you .container .content {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+#try-you .container .content .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#try-you .container .content .header h3 {
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#try-you .container .content .header p {
+  width: 620px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+#try-you .container .content .top-carts {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#try-you .container .content .top-carts .cart-1 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .top-carts .cart-1 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .top-carts .cart-1 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .top-carts .cart-1 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .top-carts .cart-1 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .top-carts .cart-1 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .top-carts .cart-1 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .top-carts .cart-1 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-1 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-1 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .top-carts .cart-1 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-1 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-2 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .top-carts .cart-2 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .top-carts .cart-2 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .top-carts .cart-2 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .top-carts .cart-2 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .top-carts .cart-2 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .top-carts .cart-2 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .top-carts .cart-2 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-2 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-2 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .top-carts .cart-2 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-2 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-3 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .top-carts .cart-3 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .top-carts .cart-3 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .top-carts .cart-3 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .top-carts .cart-3 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .top-carts .cart-3 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .top-carts .cart-3 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .top-carts .cart-3 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-3 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-3 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .top-carts .cart-3 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-3 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-4 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .top-carts .cart-4 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .top-carts .cart-4 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .top-carts .cart-4 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .top-carts .cart-4 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .top-carts .cart-4 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .top-carts .cart-4 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .top-carts .cart-4 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-4 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .top-carts .cart-4 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .top-carts .cart-4 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .top-carts .cart-4 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#try-you .container .content .buttom-carts .cart-1 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .buttom-carts .cart-1 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .buttom-carts .cart-1 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .buttom-carts .cart-1 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .buttom-carts .cart-1 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-1 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-2 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .buttom-carts .cart-2 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .buttom-carts .cart-2 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .buttom-carts .cart-2 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .buttom-carts .cart-2 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-2 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-3 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .buttom-carts .cart-3 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .buttom-carts .cart-3 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .buttom-carts .cart-3 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .buttom-carts .cart-3 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-3 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-4 {
+  position: relative;
+  height: 335px;
+  width: 290px;
+  border: 1px solid none;
+}
+#try-you .container .content .buttom-carts .cart-4 figure img {
+  margin-top: 20px;
+  width: 100%;
+  height: 200px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#try-you .container .content .buttom-carts .cart-4 figure figcaption h3 {
+  margin-top: 16px;
+  width: 290px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.72px;
+}
+#try-you .container .content .buttom-carts .cart-4 i {
+  position: absolute;
+  top: 36px;
+  right: 16px;
+}
+#try-you .container .content .buttom-carts .cart-4 i img {
+  width: 48px;
+  height: 48px;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons {
+  margin-top: 24px;
+  display: flex;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .time {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 20px;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .time img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .time span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .knife {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .knife img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+#try-you .container .content .buttom-carts .cart-4 .icons .knife span {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+
+#Subscribe .container .inbox {
+  position: relative;
+  margin-top: 100px;
+  width: 100%;
+  height: 442px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: #E7F9FD;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Subscribe .container .inbox h2 {
+  margin-top: 80px;
+  color: #000;
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -1.92px;
+}
+#Subscribe .container .inbox p {
+  margin-top: 24px;
+  width: 620px;
+  color: rgba(0, 0, 0, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 175% */
+}
+#Subscribe .container .inbox .email {
+  margin-top: 64px;
+  width: 480px;
+  height: 80px;
+  flex-shrink: 0;
+  border-radius: 24px;
+  background: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#Subscribe .container .inbox .email #email {
+  margin-left: 32px;
+  border: none;
+  outline: none;
+}
+#Subscribe .container .inbox .email #email::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#Subscribe .container .inbox .email #email::placeholder {
+  color: rgba(0, 0, 0, 0.4);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#Subscribe .container .inbox .email button {
+  margin-right: 10px;
+  width: 160px;
+  height: 60px;
+  flex-shrink: 0;
+  border-radius: 16px;
+  background: #000;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: -0.28px;
+}
+#Subscribe .container .inbox .salad {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 409.544px;
+  height: 400.08px;
+}
+#Subscribe .container .inbox .rucola {
+  position: absolute;
+  right: 280px;
+  bottom: 80px;
+  width: 100px;
+  height: 120px;
+}
+#Subscribe .container .inbox .sezar {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  width: 255.068px;
+  height: 255.616px;
+  box-shadow: 0px 10px 24px 0px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  margin-top: 160px;
+}
+footer .container .footer-top {
+  height: 150px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container .footer-top .logo {
+  flex-direction: column;
+}
+footer .container .footer-top .logo a {
+  position: relative;
+  color: #000;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .footer-top .logo a p {
+  position: absolute;
+  left: 104px;
+  bottom: -0.5px;
+  color: #FF7426;
+  font-family: Lobster;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .container .footer-top .logo p {
+  margin-top: 16px;
+  width: 403px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .container .footer-top nav ul {
+  display: flex;
+}
+footer .container .footer-top nav ul li {
+  margin-left: 60px;
+}
+footer .container .footer-top nav ul li a {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.32px;
+}
+footer .container .footer-buttom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  height: 130px;
+}
+footer .container .footer-buttom p {
+  margin-right: 350px;
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Eudoxus Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}
+footer .container .footer-buttom p span {
+  color: #FF7967;
+  font-family: Eudoxus Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: -0.36px;
+}/*# sourceMappingURL=style.css.map */
