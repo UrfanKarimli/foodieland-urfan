@@ -419,7 +419,7 @@ header .container .socials li a {
 }
 
 #categori {
-  margin-top: 100px;
+  margin-top: 160px;
 }
 #categori .container {
   display: flex;
@@ -646,8 +646,10 @@ header .container .socials li a {
   padding-bottom: 30px;
 }
 
+#recipes {
+  margin-top: 160px;
+}
 #recipes .container .simple-tasty {
-  margin-top: 100px;
   width: 100%;
 }
 #recipes .container .simple-tasty .header-text {
@@ -667,6 +669,7 @@ header .container .socials li a {
   letter-spacing: -1.92px;
 }
 #recipes .container .simple-tasty .header-text p {
+  margin-top: 24px;
   text-align: center;
   width: 706px;
   color: rgba(0, 0, 0, 0.6);
@@ -2141,6 +2144,9 @@ header .container .socials li a {
   margin-right: 17px;
 }
 
+#try-you {
+  margin-top: 160px;
+}
 #try-you .container .content {
   margin-top: 100px;
   display: flex;
@@ -2150,6 +2156,7 @@ header .container .socials li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 80px;
 }
 #try-you .container .content .header h3 {
   color: #000;
@@ -2807,7 +2814,7 @@ header .container .socials li a {
 
 #Subscribe .container .inbox {
   position: relative;
-  margin-top: 100px;
+  margin-top: 160px;
   width: 100%;
   height: 442px;
   flex-shrink: 0;

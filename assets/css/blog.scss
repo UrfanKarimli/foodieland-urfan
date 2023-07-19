@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+$text-color-h1:#000;
+$text-color-h2:#000;
+$text-color-h3:#000;
+$text-color-h4:#000;
+$text-color-h5:#000;
+$text-color-a:#000;
+$text-color-p:rgba(0, 0, 0, 0.60);
+$back-color-light-blue :#E7F9FD;
+
+
+body {
+    background-color: #fff;
+    min-width: 1450px;
+
+}
+
+.container {
+    max-width: 1240px;
+    // width: 1240px;
+    margin: 0 auto;
+
+}
+
+header {
+    height: 110px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+
+    .container {
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logo {
+            a {
+                color: #000;
+                font-family: Lobster;
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                position: relative;
+
+                p {
+                    color: #FF7426;
+                    font-family: Lobster;
+                    font-size: 24px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    position: absolute;
+                    right: -7px;
+                    bottom: 0px;
+                }
+            }
+        }
+
+        nav {
+            ul {
+                display: flex;
+                align-items: center;
+
+                li {
+                    margin-left: 60px;
+
+                    a {
+                        line-height: 19px;
+                        color: #000;
+                        font-family: Inter;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: -0.32px;
+                    }
+                }
+            }
+        }
+
+        .socials {
+            width: 134px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            li {
+                a {
+                    width: 133.962px;
+                    height: 22px;
+                    flex-shrink: 0;
+                    color: #000;
+                }
+            }
+        }
+    }
+}
+
