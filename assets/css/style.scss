@@ -59,7 +59,7 @@ header {
                 align-items: center;
 
                 li {
-                    margin-left: 25px;
+                    margin-left: 60px;
 
                     a {
                         line-height: 19px;
@@ -95,17 +95,18 @@ header {
 
 #introdoction {
     margin-top: 40px;
-
     .container {
         display: flex;
         flex-direction: row;
 
         .left-back-blue {
-            border: 1px solid #000;
-            width: 40%;
+            border: 1px solid none;
+            width: 50%;
             height: 640px;
             flex-shrink: 0;
             background-color: #E7FAFE;
+            position: relative;
+            z-index: -1;
 
             .hot-recieps {
                 width: 156px;
@@ -115,6 +116,9 @@ header {
                 background: #FFF;
                 display: flex;
                 align-items: center;
+                position: absolute;
+                top: 50px;
+                left: 50px;
 
                 h4 {
                     color: #000;
@@ -132,7 +136,7 @@ header {
                     height: 24px;
                     flex-shrink: 0;
                     margin-left: 20px;
-                    margin-right: 20px;
+                    margin-right: 13px;
                 }
             }
 
@@ -145,6 +149,9 @@ header {
                     font-weight: 600;
                     line-height: normal;
                     letter-spacing: -2.56px;
+                    position: absolute;
+                    top: 127px;
+                    left: 50px;
                 }
 
                 p {
@@ -154,11 +161,16 @@ header {
                     font-style: normal;
                     font-weight: 400;
                     line-height: 28px;
-
+                    position: absolute;
+                    top: 305px;
+                    left: 50px;
                 }
 
                 .gray-radius {
                     display: flex;
+                    position: absolute;
+                    top: 391px;
+                    left: 50px;
 
                     .time {
                         width: 139px;
@@ -166,7 +178,9 @@ header {
                         flex-shrink: 0;
                         border-radius: 30px;
                         background: rgba(0, 0, 0, 0.05);
-
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
                         img {
                             width: 24px;
                             height: 24px;
@@ -190,7 +204,9 @@ header {
                         flex-shrink: 0;
                         border-radius: 30px;
                         background: rgba(0, 0, 0, 0.05);
-
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-evenly;
                         img {
                             width: 24px;
                             height: 24px;
@@ -212,8 +228,15 @@ header {
 
             .author {
                 display: flex;
+                align-items: center;
+                position: absolute;
+                bottom: 55px;
+                left: 50px;
 
                 .john {
+                    display: flex;
+                    align-items: center;
+
                     img {
                         width: 50px;
                         height: 50px;
@@ -221,28 +244,35 @@ header {
                         border-radius: 50px;
                     }
 
-                    h4 {
-                        color: #000;
-                        font-family: Inter;
-                        font-size: 16px;
-                        font-style: normal;
-                        font-weight: 700;
-                        line-height: normal;
-                        letter-spacing: -0.32px;
-                    }
+                    .two {
+                        margin-left: 16px;
 
-                    span {
-                        color: rgba(0, 0, 0, 0.60);
-                        font-family: Inter;
-                        font-size: 14px;
-                        font-style: normal;
-                        font-weight: 500;
-                        line-height: normal;
-                        letter-spacing: -0.28px;
+                        h4 {
+                            color: #000;
+                            font-family: Inter;
+                            font-size: 16px;
+                            font-style: normal;
+                            font-weight: 700;
+                            line-height: normal;
+                            letter-spacing: -0.32px;
+                            margin-bottom: 8px;
+                        }
+
+                        span {
+                            color: rgba(0, 0, 0, 0.60);
+                            font-family: Inter;
+                            font-size: 14px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: -0.28px;
+                            
+                        }
                     }
                 }
 
                 .view {
+                    margin-left: 157px;
 
                     button {
                         width: 200px;
@@ -257,6 +287,12 @@ header {
                         font-weight: 600;
                         line-height: normal;
                         letter-spacing: -0.28px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        img {
+                            margin-left: 15px;
+                        }
                     }
 
                     img {
@@ -272,11 +308,174 @@ header {
             background-image: url(../img/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
             background-repeat: no-repeat;
             background-size: cover;
-            border: 1px solid #000;
-            width: 60%;
+            border: 1px solid none;
+            width: 50%;
             height: 640px;
             flex-shrink: 0;
-
+            position: relative;
+            .stamp {
+                height: 150px;
+                width: 150px;
+                position: absolute;
+                top: 50px;
+                right: 530px;
+                z-index: 99;
+                .test {
+                    margin: 10px auto;
+                    position: relative;
+                    height: 150px;
+                    width: 150px;
+            
+                    .img-1 {
+                        z-index: 2;
+                        position: absolute;
+                        top: 35px;
+                        left: 10px;
+                    }
+            
+                    .img-2 {
+                        z-index: 3;
+                        position: absolute;
+                        top: 35px;
+                        left: 35px;
+                    }
+            
+                    .img-3 {
+                        z-index: 4;
+                        position: absolute;
+                        top: 38.5px;
+                        left: 38.5px;
+                    }
+            
+                    .letters {
+                        color: #FFF;
+                        font-family: Inter;
+                        font-size: 12px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+            
+                        .h {
+                            position: absolute;
+                            top: 65.5px;
+                            left: 7.35px;
+                            transform: rotate(270deg);
+                        }
+            
+                        .a {
+                            position: absolute;
+                            top: 55.62px;
+                            left: 8.18px;
+                            transform: rotate(-77.233deg);
+                        }
+            
+                        .n {
+                            position: absolute;
+                            top: 46.14px;
+                            left: 10.51px;
+                            transform: rotate(292deg);
+                        }
+            
+                        .d {
+                            position: absolute;
+                            top: 37.37px;
+                            left: 14.27px;
+                            transform: rotate(-60.061deg);
+                        }
+            
+                        .p {
+                            position: absolute;
+                            top: 30.16px;
+                            left: 19.44px;
+                            transform: rotate(305deg);
+                        }
+            
+                        .i {
+                            position: absolute;
+                            top: 24.79px;
+                            left: 25.94px;
+                            transform: rotate(-46.249deg);
+                        }
+            
+                        .c {
+                            position: absolute;
+                            top: 19.69px;
+                            left: 28.26px;
+                            transform: rotate(-39.584deg);
+                        }
+            
+                        .k {
+                            position: absolute;
+                            top: 14.17px;
+                            left: 36.99px;
+                            transform: rotate(326deg);
+                        }
+            
+                        .e {
+                            position: absolute;
+                            top: 9.98px;
+                            left: 45.77px;
+                            transform: rotate(340deg);
+                        }
+            
+                        .d2 {
+                            position: absolute;
+                            top: 7.17px;
+                            left: 54.2px;
+                            transform: rotate(-14.075deg);
+                        }
+            
+                        .r {
+                            position: absolute;
+                            top: 4.38px;
+                left: 67.34px;
+                transform: rotate(358deg);
+                        }
+            
+                        .e2 {
+                            position: absolute;
+                            top: 4.4px;
+                            left: 75.58px;
+                            transform: rotate(5deg);
+                        }
+            
+                        .c2 {
+                            position: absolute;
+                            top: 5.5px;
+                            left: 83.27px;
+                            transform: rotate(15deg);
+                        }
+            
+                        .i2 {
+                            position: absolute;
+                            top: 7.5px;
+                            left: 92.11px;
+                            transform: rotate(22deg);
+                        }
+            
+                        .p2 {
+                            position: absolute;
+                            top: 9.95px;
+                            left: 96.01px;
+                            transform: rotate(25.7deg);
+                        }
+            
+                        .e3 {
+                            position: absolute;
+                            top: 14.32px;
+                            left: 102.55px;
+                            transform: rotate(33.308deg);
+                        }
+            
+                        .s {
+                            position: absolute;
+                            top: 18.95px;
+                            left: 109.05px;
+                            transform: rotate(41.043deg);
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -315,6 +514,7 @@ header {
                 font-weight: 600;
                 line-height: normal;
                 letter-spacing: -0.32px;
+                border: none
             }
         }
 
@@ -1663,7 +1863,7 @@ header {
                             }
                         }
 
-                        .three-point {}
+
                     }
 
                     .img-part {
@@ -1671,8 +1871,6 @@ header {
                         height: 290px;
                         flex-shrink: 0;
                         position: relative;
-
-                        img {}
 
                         span {
                             position: absolute;
@@ -1725,8 +1923,6 @@ header {
                             justify-content: flex-start;
                             align-items: center;
                             margin-top: 9.4px;
-
-                            span {}
 
                             p {
                                 margin-left: 3px;
@@ -1842,7 +2038,6 @@ header {
                             }
                         }
 
-                        .three-point {}
                     }
 
                     .img-part {
@@ -1850,8 +2045,6 @@ header {
                         height: 290px;
                         flex-shrink: 0;
                         position: relative;
-
-                        img {}
 
                         span {
                             position: absolute;
@@ -1904,8 +2097,6 @@ header {
                             justify-content: flex-start;
                             align-items: center;
                             margin-top: 9.4px;
-
-                            span {}
 
                             p {
                                 margin-left: 3px;
@@ -2021,7 +2212,6 @@ header {
                             }
                         }
 
-                        .three-point {}
                     }
 
                     .img-part {
@@ -2029,8 +2219,6 @@ header {
                         height: 290px;
                         flex-shrink: 0;
                         position: relative;
-
-                        img {}
 
                         span {
                             position: absolute;
@@ -2083,8 +2271,6 @@ header {
                             justify-content: flex-start;
                             align-items: center;
                             margin-top: 9.4px;
-
-                            span {}
 
                             p {
                                 margin-left: 3px;
@@ -2190,7 +2376,6 @@ header {
                                     letter-spacing: 0.054px;
                                 }
 
-
                             }
 
                             .check {
@@ -2200,7 +2385,6 @@ header {
                             }
                         }
 
-                        .three-point {}
                     }
 
                     .img-part {
@@ -2208,8 +2392,6 @@ header {
                         height: 290px;
                         flex-shrink: 0;
                         position: relative;
-
-                        img {}
 
                         span {
                             position: absolute;
@@ -2251,10 +2433,8 @@ header {
 
                                 .three {
                                     margin-left: 35px;
-
                                 }
                             }
-
                         }
 
                         .liked-by {
@@ -2262,8 +2442,6 @@ header {
                             justify-content: flex-start;
                             align-items: center;
                             margin-top: 9.4px;
-
-                            span {}
 
                             p {
                                 margin-left: 3px;
@@ -3384,3 +3562,6 @@ footer {
         }
     }
 }
+
+
+// !test 

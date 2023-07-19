@@ -51,7 +51,7 @@ header .container nav ul {
   align-items: center;
 }
 header .container nav ul li {
-  margin-left: 25px;
+  margin-left: 60px;
 }
 header .container nav ul li a {
   line-height: 19px;
@@ -84,11 +84,13 @@ header .container .socials li a {
   flex-direction: row;
 }
 #introdoction .container .left-back-blue {
-  border: 1px solid #000;
-  width: 40%;
+  border: 1px solid none;
+  width: 50%;
   height: 640px;
   flex-shrink: 0;
   background-color: #E7FAFE;
+  position: relative;
+  z-index: -1;
 }
 #introdoction .container .left-back-blue .hot-recieps {
   width: 156px;
@@ -98,6 +100,9 @@ header .container .socials li a {
   background: #FFF;
   display: flex;
   align-items: center;
+  position: absolute;
+  top: 50px;
+  left: 50px;
 }
 #introdoction .container .left-back-blue .hot-recieps h4 {
   color: #000;
@@ -113,7 +118,7 @@ header .container .socials li a {
   height: 24px;
   flex-shrink: 0;
   margin-left: 20px;
-  margin-right: 20px;
+  margin-right: 13px;
 }
 #introdoction .container .left-back-blue .content h2 {
   color: #000;
@@ -123,6 +128,9 @@ header .container .socials li a {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -2.56px;
+  position: absolute;
+  top: 127px;
+  left: 50px;
 }
 #introdoction .container .left-back-blue .content p {
   color: rgba(0, 0, 0, 0.6);
@@ -131,9 +139,15 @@ header .container .socials li a {
   font-style: normal;
   font-weight: 400;
   line-height: 28px;
+  position: absolute;
+  top: 305px;
+  left: 50px;
 }
 #introdoction .container .left-back-blue .content .gray-radius {
   display: flex;
+  position: absolute;
+  top: 391px;
+  left: 50px;
 }
 #introdoction .container .left-back-blue .content .gray-radius .time {
   width: 139px;
@@ -141,6 +155,9 @@ header .container .socials li a {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 #introdoction .container .left-back-blue .content .gray-radius .time img {
   width: 24px;
@@ -162,6 +179,9 @@ header .container .socials li a {
   flex-shrink: 0;
   border-radius: 30px;
   background: rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 #introdoction .container .left-back-blue .content .gray-radius .chicken img {
   width: 24px;
@@ -179,6 +199,14 @@ header .container .socials li a {
 }
 #introdoction .container .left-back-blue .author {
   display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 55px;
+  left: 50px;
+}
+#introdoction .container .left-back-blue .author .john {
+  display: flex;
+  align-items: center;
 }
 #introdoction .container .left-back-blue .author .john img {
   width: 50px;
@@ -186,7 +214,10 @@ header .container .socials li a {
   flex-shrink: 0;
   border-radius: 50px;
 }
-#introdoction .container .left-back-blue .author .john h4 {
+#introdoction .container .left-back-blue .author .john .two {
+  margin-left: 16px;
+}
+#introdoction .container .left-back-blue .author .john .two h4 {
   color: #000;
   font-family: Inter;
   font-size: 16px;
@@ -194,8 +225,9 @@ header .container .socials li a {
   font-weight: 700;
   line-height: normal;
   letter-spacing: -0.32px;
+  margin-bottom: 8px;
 }
-#introdoction .container .left-back-blue .author .john span {
+#introdoction .container .left-back-blue .author .john .two span {
   color: rgba(0, 0, 0, 0.6);
   font-family: Inter;
   font-size: 14px;
@@ -203,6 +235,9 @@ header .container .socials li a {
   font-weight: 500;
   line-height: normal;
   letter-spacing: -0.28px;
+}
+#introdoction .container .left-back-blue .author .view {
+  margin-left: 157px;
 }
 #introdoction .container .left-back-blue .author .view button {
   width: 200px;
@@ -217,6 +252,12 @@ header .container .socials li a {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#introdoction .container .left-back-blue .author .view button img {
+  margin-left: 15px;
 }
 #introdoction .container .left-back-blue .author .view img {
   width: 24px;
@@ -227,10 +268,153 @@ header .container .socials li a {
   background-image: url(../img/baked-chicken-wings-asian-style-tomatoes-sauce-plate\ 1.png);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 1px solid #000;
-  width: 60%;
+  border: 1px solid none;
+  width: 50%;
   height: 640px;
   flex-shrink: 0;
+  position: relative;
+}
+#introdoction .container .right-back-img .stamp {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  top: 50px;
+  right: 530px;
+  z-index: 99;
+}
+#introdoction .container .right-back-img .stamp .test {
+  margin: 10px auto;
+  position: relative;
+  height: 150px;
+  width: 150px;
+}
+#introdoction .container .right-back-img .stamp .test .img-1 {
+  z-index: 2;
+  position: absolute;
+  top: 35px;
+  left: 10px;
+}
+#introdoction .container .right-back-img .stamp .test .img-2 {
+  z-index: 3;
+  position: absolute;
+  top: 35px;
+  left: 35px;
+}
+#introdoction .container .right-back-img .stamp .test .img-3 {
+  z-index: 4;
+  position: absolute;
+  top: 38.5px;
+  left: 38.5px;
+}
+#introdoction .container .right-back-img .stamp .test .letters {
+  color: #FFF;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#introdoction .container .right-back-img .stamp .test .letters .h {
+  position: absolute;
+  top: 65.5px;
+  left: 7.35px;
+  transform: rotate(270deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .a {
+  position: absolute;
+  top: 55.62px;
+  left: 8.18px;
+  transform: rotate(-77.233deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .n {
+  position: absolute;
+  top: 46.14px;
+  left: 10.51px;
+  transform: rotate(292deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .d {
+  position: absolute;
+  top: 37.37px;
+  left: 14.27px;
+  transform: rotate(-60.061deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .p {
+  position: absolute;
+  top: 30.16px;
+  left: 19.44px;
+  transform: rotate(305deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .i {
+  position: absolute;
+  top: 24.79px;
+  left: 25.94px;
+  transform: rotate(-46.249deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .c {
+  position: absolute;
+  top: 19.69px;
+  left: 28.26px;
+  transform: rotate(-39.584deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .k {
+  position: absolute;
+  top: 14.17px;
+  left: 36.99px;
+  transform: rotate(326deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .e {
+  position: absolute;
+  top: 9.98px;
+  left: 45.77px;
+  transform: rotate(340deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .d2 {
+  position: absolute;
+  top: 7.17px;
+  left: 54.2px;
+  transform: rotate(-14.075deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .r {
+  position: absolute;
+  top: 4.38px;
+  left: 67.34px;
+  transform: rotate(358deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .e2 {
+  position: absolute;
+  top: 4.4px;
+  left: 75.58px;
+  transform: rotate(5deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .c2 {
+  position: absolute;
+  top: 5.5px;
+  left: 83.27px;
+  transform: rotate(15deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .i2 {
+  position: absolute;
+  top: 7.5px;
+  left: 92.11px;
+  transform: rotate(22deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .p2 {
+  position: absolute;
+  top: 9.95px;
+  left: 96.01px;
+  transform: rotate(25.7deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .e3 {
+  position: absolute;
+  top: 14.32px;
+  left: 102.55px;
+  transform: rotate(33.308deg);
+}
+#introdoction .container .right-back-img .stamp .test .letters .s {
+  position: absolute;
+  top: 18.95px;
+  left: 109.05px;
+  transform: rotate(41.043deg);
 }
 
 #categori {
@@ -266,6 +450,7 @@ header .container .socials li a {
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.32px;
+  border: none;
 }
 #categori .container .buttom-line {
   display: flex;
