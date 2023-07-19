@@ -6,6 +6,16 @@
     list-style-type: none;
 }
 
+$text-color-h1:#000;
+$text-color-h2:#000;
+$text-color-h3:#000;
+$text-color-h4:#000;
+$text-color-h5:#000;
+$text-color-a:#000;
+$text-color-p:rgba(0, 0, 0, 0.60);
+$back-color-light-blue :#E7F9FD;
+
+
 body {
     background-color: #fff;
     min-width: 1450px;
@@ -207,6 +217,7 @@ header {
                         display: flex;
                         align-items: center;
                         justify-content: space-evenly;
+                        margin-left: 16px;
                         img {
                             width: 24px;
                             height: 24px;

@@ -182,6 +182,7 @@ header .container .socials li a {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+  margin-left: 16px;
 }
 #introdoction .container .left-back-blue .content .gray-radius .chicken img {
   width: 24px;
